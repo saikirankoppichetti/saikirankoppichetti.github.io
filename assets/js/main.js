@@ -235,7 +235,12 @@
   }
 
   // Real company logos (light chip); anything not listed falls back to a monogram.
-  const COMPANY_LOGOS = { "Cigna Group": "cigna.svg", "Tata Capital": "tata.svg" };
+  const COMPANY_LOGOS = {
+    "Capital One": "capitalone.svg",
+    Nitara: "nitara.png",
+    GRROOM: "grroom.jpg",
+    "Market Data Forecast": "mdf.png",
+  };
   function companyLogoFile(company) {
     const clean = String(company == null ? "" : company)
       .split(",")[0]
@@ -300,6 +305,7 @@
     MLOps: "mlops",
     Security: "security",
     "Computer Vision": "cv",
+    "Data Engineering": "datascience",
   };
 
   function slugForCategory(category) {
@@ -356,8 +362,11 @@
           `<article class="proj" data-category="${attr(p.category)}">` +
           `<div class="proj-tile" aria-hidden="true">` +
           `<img class="proj-img" src="assets/img/projects/${attr(
+            slug
+          )}.png" alt="" loading="lazy" aria-hidden="true" ` +
+          `onerror="this.onerror=function(){this.remove()};this.src='assets/img/projects/${attr(
             imgSlug
-          )}.png" alt="" loading="lazy" aria-hidden="true" onerror="this.remove()">` +
+          )}.png'">` +
           `<span class="proj-mono mono">${esc(slug)}</span></div>` +
           `<div class="proj-body">` +
           `<span class="proj-cat mono">${esc(p.category)}</span>` +

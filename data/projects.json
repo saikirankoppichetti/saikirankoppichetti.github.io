@@ -2,63 +2,174 @@
   "sectionTitle": "Selected Work",
   "projects": [
     {
-      "title": "infohunter",
-      "description": "Practice repository for exploring advanced features",
-      "category": "Backend Development",
+      "title": "ai_soc",
+      "description": "Local research SOC with Wazuh-format ingestion, flow classification, Ollama-based triage, RAG over security knowledge, incident correlation, Sigma rule export and role-based analyst review.",
+      "category": "Security",
       "technologies": [
-        "Python"
+        "Python",
+        "Docker",
+        "Ollama",
+        "RAG",
+        "PostgreSQL",
+        "Wazuh"
       ],
       "featured": true,
-      "github": "https://github.com/saikirankoppichetti/infohunter"
+      "github": "https://github.com/saikirankoppichetti/ai_soc"
     },
     {
-      "title": "contribution-history",
-      "description": "Generated GitHub contribution history",
-      "category": "Development",
-      "technologies": [],
+      "title": "surecast",
+      "description": "Day-ahead demand forecaster with conformalized prediction intervals, SHAP explanations, leakage-safe rolling-origin backtesting and a Streamlit dashboard; cuts MAE 23% vs a seasonal baseline.",
+      "category": "Machine Learning",
+      "technologies": [
+        "Python",
+        "Gradient Boosting",
+        "Conformal Prediction",
+        "SHAP",
+        "Streamlit"
+      ],
       "featured": true,
-      "github": "https://github.com/saikirankoppichetti/contribution-history"
-    },
-    {
-      "title": "goodreads_etl_pipeline",
-      "description": "Practice application demonstrating full-stack development skills",
-      "category": "Development",
-      "technologies": [],
-      "featured": true,
-      "github": "https://github.com/saikirankoppichetti/goodreads_etl_pipeline"
+      "github": "https://github.com/saikirankoppichetti/surecast"
     },
     {
       "title": "Basic-Rag",
-      "description": "GitHub repository: Basic-Rag",
-      "category": "Backend Development",
+      "description": "Retrieval-augmented Q&A over PDF documents using a Chroma vector store.",
+      "category": "GenAI / LLM",
       "technologies": [
-        "Python"
+        "Python",
+        "RAG",
+        "ChromaDB"
       ],
       "featured": true,
       "github": "https://github.com/saikirankoppichetti/Basic-Rag"
     },
     {
-      "title": "Job-Recommendation-project",
-      "description": "GitHub repository: Job-Recommendation-project",
-      "category": "Backend Development",
+      "title": "medical-chatbot",
+      "description": "Medical question-answering chatbot built with LLMs, LangChain and Pinecone, served through Flask and deployed on AWS.",
+      "category": "GenAI / LLM",
       "technologies": [
-        "Python"
+        "Python",
+        "LangChain",
+        "Pinecone",
+        "Flask",
+        "AWS"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/medical-chatbot"
+    },
+    {
+      "title": "Job-Recommendation-project",
+      "description": "Job recommendation app that matches candidate profiles to live postings, with an MCP server exposing the search tools.",
+      "category": "GenAI / LLM",
+      "technologies": [
+        "Python",
+        "MCP",
+        "LLM"
       ],
       "featured": true,
       "github": "https://github.com/saikirankoppichetti/Job-Recommendation-project"
     },
     {
-      "title": "medical-chatbot",
-      "description": "GitHub repository: medical-chatbot",
-      "category": "Backend Development",
+      "title": "email-phishing-detection",
+      "description": "Phishing analyzer for .eml/.msg files: SPF/DKIM/DMARC checks, URL and attachment analysis, OCR, cached VirusTotal lookups and an optional AI verdict.",
+      "category": "Security",
       "technologies": [
         "Python",
-        "CSS",
-        "HTML",
-        "Shell"
+        "VirusTotal",
+        "OCR",
+        "asyncio",
+        "SQLite"
       ],
       "featured": true,
-      "github": "https://github.com/saikirankoppichetti/medical-chatbot"
+      "github": "https://github.com/saikirankoppichetti/email-phishing-detection"
+    },
+    {
+      "title": "infohunter",
+      "description": "Modular OSINT suite for username, email and domain intelligence that produces PDF and JSON reports from a CLI or bot workflow.",
+      "category": "Security",
+      "technologies": [
+        "Python",
+        "OSINT",
+        "Flask"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/infohunter"
+    },
+    {
+      "title": "calibratekit",
+      "description": "Offline toolkit that measures classifier calibration (ECE, MCE, Brier, reliability diagrams) and repairs it with isotonic and Platt recalibration.",
+      "category": "Machine Learning",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "NumPy"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/calibratekit"
+    },
+    {
+      "title": "modelcard",
+      "description": "CLI that generates model cards for scikit-learn models, including metadata and feature importances.",
+      "category": "Machine Learning",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "CLI"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/modelcard"
+    },
+    {
+      "title": "creditcardfrauddetection-mlops",
+      "description": "Credit card fraud classifier packaged as a Flask app with DVC-tracked data, a Docker image and a saved logistic-regression pipeline.",
+      "category": "MLOps",
+      "technologies": [
+        "Python",
+        "DVC",
+        "Docker",
+        "Flask",
+        "scikit-learn"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/creditcardfrauddetection-mlops"
+    },
+    {
+      "title": "fraud-detection-in-python",
+      "description": "Payment fraud detection on 594K BankSim transactions comparing Naive Bayes, logistic regression, neural network, decision tree and random forest.",
+      "category": "Data Science",
+      "technologies": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "Jupyter"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/fraud-detection-in-python"
+    },
+    {
+      "title": "text-analysis-using-nlp-streamlit",
+      "description": "Interactive NLP app for text preprocessing, sentiment analysis, named entity recognition, POS tagging and word clouds.",
+      "category": "Data Science",
+      "technologies": [
+        "Python",
+        "NLP",
+        "Streamlit"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/text-analysis-using-nlp-streamlit"
+    },
+    {
+      "title": "goodreads_etl_pipeline",
+      "description": "Batch ETL pipeline from the Goodreads API through S3 and Spark on EMR into a Redshift warehouse, orchestrated and quality-checked with Airflow.",
+      "category": "Data Engineering",
+      "technologies": [
+        "Python",
+        "Spark",
+        "Airflow",
+        "Redshift",
+        "AWS"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/goodreads_etl_pipeline"
     }
   ]
 }
