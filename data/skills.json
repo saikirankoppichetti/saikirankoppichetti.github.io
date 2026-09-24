@@ -1,0 +1,85 @@
+{
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": [
+        "Python",
+        "SQL",
+        "PySpark"
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "skills": [
+        "LangChain",
+        "LangGraph",
+        "LangSmith",
+        "AutoGen",
+        "XGBoost",
+        "LightGBM",
+        "Scikit-learn",
+        "PyTorch",
+        "YOLOv5",
+        "keras-ocr",
+        "OpenCV",
+        "FastAPI"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "Pinecone",
+        "FAISS",
+        "LlamaIndex",
+        "Llama 3",
+        "GPT",
+        "BERT",
+        "AWS SageMaker",
+        "MLflow",
+        "Evidently AI",
+        "Docker",
+        "Kubernetes (EKS)",
+        "GitHub Actions",
+        "Airflow",
+        "Prometheus",
+        "Grafana",
+        "Hive",
+        "Hadoop",
+        "AWS (Lambda, Glue, Redshift, CloudWatch)",
+        "Azure ML",
+        "Cosmos DB",
+        "Scrapy",
+        "BeautifulSoup",
+        "Power BI"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "Retrieval-Augmented Generation",
+        "semantic retrieval",
+        "cross-encoder reranking",
+        "document chunking",
+        "embeddings",
+        "benchmark dataset construction",
+        "hallucination detection",
+        "A/B testing",
+        "multi-agent and agentic workflows",
+        "prompt engineering",
+        "SFT",
+        "PEFT/LoRA",
+        "NLP",
+        "computer vision",
+        "time series forecasting",
+        "feature engineering",
+        "model evaluation",
+        "drift detection"
+      ]
+    }
+  ]
+}

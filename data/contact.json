@@ -1,0 +1,24 @@
+{
+  "sectionTitle": "Get in touch",
+  "subtitle": "Have a project in mind or a role to fill? Let's connect.",
+  "email": "koppichettisaikiran97@gmail.com",
+  "location": "Cleveland, OH",
+  "availability": "Open to opportunities",
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/saikirankoppichetti",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/saikirankoppichetti97/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:koppichettisaikiran97@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}

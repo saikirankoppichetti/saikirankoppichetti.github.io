@@ -1,0 +1,64 @@
+{
+  "sectionTitle": "Selected Work",
+  "projects": [
+    {
+      "title": "infohunter",
+      "description": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/infohunter"
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "category": "Development",
+      "technologies": [],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/contribution-history"
+    },
+    {
+      "title": "goodreads_etl_pipeline",
+      "description": "Practice application demonstrating full-stack development skills",
+      "category": "Development",
+      "technologies": [],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/goodreads_etl_pipeline"
+    },
+    {
+      "title": "Basic-Rag",
+      "description": "GitHub repository: Basic-Rag",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/Basic-Rag"
+    },
+    {
+      "title": "Job-Recommendation-project",
+      "description": "GitHub repository: Job-Recommendation-project",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/Job-Recommendation-project"
+    },
+    {
+      "title": "medical-chatbot",
+      "description": "GitHub repository: medical-chatbot",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "CSS",
+        "HTML",
+        "Shell"
+      ],
+      "featured": true,
+      "github": "https://github.com/saikirankoppichetti/medical-chatbot"
+    }
+  ]
+}

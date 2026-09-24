@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Sai Kiran Koppichetti",
+    "title": "AI/ML Engineer",
+    "bio": "AI/ML Engineer with 5+ years across machine learning, data science, and analytics, focused on retrieval systems and applied LLM work in regulated domains. Builds RAG and agentic pipelines end to end ingestion, chunking, embedding, reranking, generation, and the evaluation that says whether the output can be trusted alongside gradient-boosted risk models served on AWS. Background in healthcare and financial services NLP, with a life sciences degree behind the clinical work."
+  },
+  "contact": {
+    "email": "koppichettisaikiran97@gmail.com",
+    "phone": "(216) 423-8951",
+    "githubUsername": "saikirankoppichetti",
+    "linkedin": "https://www.linkedin.com/in/saikirankoppichetti97/"
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Sai Kiran Koppichetti - Portfolio",
+    "description": "AI/ML Engineer with 5+ years across machine learning, data science, and analytics, focused on retrieval systems and applied LLM work in regulated domains. Builds RAG and agentic pipelines end to end ingestion, chunking, embedding, reranking, generation, and the evaluation that says whether the output can be trusted alongside gradient-boosted risk models served on AWS. Background in healthcare and financial services NLP, with a life sciences degree behind the clinical work."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "eyebrow": "AI/ML ENGINEER",
+  "greeting": "Hello, I'm",
+  "name": "Sai Kiran Koppichetti",
+  "role": "AI/ML Engineer",
+  "tagline": "AI/ML Engineer with 5+ years across machine learning, data science, and analytics, focused on retrieval systems and applied LLM work in regulated domains. Builds RAG and agentic pipelines end to end ingestion, chunking, embedding, reranking, generation, and the evaluation that says whether the output can be trusted alongside gradient-boosted risk models served on AWS. Background in healthcare and financial services NLP, with a life sciences degree behind the clinical work.",
+  "cta": {
+    "buttons": [
+      {
+        "text": "Get In Touch",
+        "href": "#contact",
+        "type": "primary"
+      },
+      {
+        "text": "View Projects",
+        "href": "#work",
+        "type": "secondary"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/saikirankoppichetti",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/saikirankoppichetti97/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:koppichettisaikiran97@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "stats": [
+    {
+      "value": "6+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "1",
+      "label": "Projects"
+    },
+    {
+      "value": "4",
+      "label": "Companies"
+    },
+    {
+      "value": "56+",
+      "label": "Technologies"
+    }
+  ]
+}

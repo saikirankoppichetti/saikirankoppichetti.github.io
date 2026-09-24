@@ -1,0 +1,54 @@
+{
+  "sectionTitle": "Experience",
+  "experiences": [
+    {
+      "title": "AI/ML Engineer",
+      "company": "Capital One",
+      "period": "Feb 2025 - Present",
+      "responsibilities": [
+        "Built credit-risk scoring models using XGBoost, LightGBM, Python, and Amazon SageMaker, evaluating 100K+ scoring records and improving AUC over the existing model to support lending risk decisions",
+        "Built production RAG pipelines with Amazon Bedrock, Llama 3, LangChain, and Pinecone, using semantic search and reranking to retrieve relevant information from financial and regulatory documents",
+        "Developed agentic AI workflows with Amazon Bedrock, LangChain, and AutoGen to automate compliance document classification, policy checks, and evidence extraction across financial workflows",
+        "Built an LLM evaluation framework with benchmark datasets and 10+ evaluation scenarios to measure retrieval quality, groundedness, hallucinations, response consistency, and prompt performance",
+        "Set up ML model monitoring and drift detection using MLflow and Evidently AI, tracking model and data-quality metrics to identify performance degradation and determine when retraining was needed",
+        "Deployed ML/AI inference services using Docker, Kubernetes (Amazon EKS), FastAPI, REST APIs, Prometheus, and Grafana, supporting multiple models with consistent deployment and production monitoring",
+        "Developed LLM guardrails and validation workflows using Python and Amazon Bedrock to validate prompts and model responses, helping prevent unsafe, non-grounded, and policy-sensitive outputs in enterprise GenAI applications"
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Nitara",
+      "period": "Oct 2021 - Nov 2022",
+      "responsibilities": [
+        "Developed an OCR solution using Keras OCR and OpenCV to extract donor IDs, batch codes, and expiry dates from over 60,000 artificial insemination tube images, achieving approximately 96% extraction accuracy while significantly reducing manual data entry",
+        "Built a deep learning–based cattle disease detection model trained on 25,000+ labeled livestock images, achieving over 90% validation accuracy and enabling earlier identification of health conditions for veterinary teams",
+        "Performed exploratory data analysis and statistical analysis across 10+ analytical variables, identifying trends, anomalies, relationships, and data-quality issues affecting downstream modeling",
+        "Developed ARIMA-based forecasting models using more than three years of historical farm production data, improving monthly milk yield forecasting accuracy by 18% and supporting inventory planning decisions",
+        "Translated model outputs and analytical findings into 8+ business insights, helping stakeholders interpret trends, model results, and data-quality findings for operational decisions",
+        "Designed interactive Power BI dashboards tracking cattle health, insemination success rates, and milk production, enabling operational teams to monitor farm performance through near real-time"
+      ]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "GRROOM",
+      "period": "Oct 2020 - Sep 2021",
+      "responsibilities": [
+        "Developed and fine-tuned YOLOv5 models for fashion image recognition, enabling automatic detection and classification of clothing items to improve personalized product recommendations",
+        "Built scalable web scraping pipelines using Scrapy and BeautifulSoup to collect product catalogs, pricing, and inventory from major fashion retailers, ensuring the recommendation engine remained synchronized with frequently changing inventories",
+        "Curated and annotated large-scale fashion image datasets, improving model robustness across diverse apparel categories while supporting continuous model retraining",
+        "Automated data validation and preprocessing workflows in Python, reducing manual data preparation effort and improving training dataset consistency for computer vision models"
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Market Data Forecast",
+      "period": "Jun 2019 - Sep 2020",
+      "responsibilities": [
+        "Developed forecasting models using ARIMA and regression techniques to analyze market trends across healthcare, agriculture, and financial sectors, supporting strategic planning and client research initiatives",
+        "Conducted exploratory and statistical analysis to identify 5+ business trends and performance patterns, providing findings for recurring stakeholder reports and management reviews",
+        "Built interactive Power BI dashboards that visualized competitive intelligence, market indicators, and demand forecasts, improving stakeholder access to business insights and reducing manual reporting effort",
+        "Automated recurring reporting workflows using Python and Advanced Excel, streamlining monthly market research deliverables and improving reporting consistency across client engagements"
+      ]
+    }
+  ]
+}
